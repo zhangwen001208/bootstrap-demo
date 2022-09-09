@@ -1,0 +1,203 @@
+ 
+ @media screen and (min-width: 1280px) { 
+    .container {
+        width: 1280px
+    }
+    
+ }
+ ul{
+    padding: 0;
+    margin: 0;
+ }
+ ul>li {
+    list-style: none;
+    text-decoration: none;
+    
+ }
+ a {
+    color: #666;
+ }
+ a:hover {
+    text-decoration: none;
+ }
+ p{
+    margin-bottom: 0;
+ }
+ 
+
+
+
+
+
+ header {
+    padding-left: 0 !important;
+
+ }
+ .logo {
+    background-color: #429ad9;
+    
+
+ }
+ .logo img {
+    display: block;
+    /* width: 100%; */
+    /* 让我们的图片不缩放 */
+    max-width: 100%; 
+    margin: 0 auto;
+ 
+ }
+ 
+ /* 1.让我们的图片在超小屏幕下隐藏起来不显示 */
+ /* 2 我们提前设置一个块级元素 到我们超小屏幕下显示 */
+ .logo span {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+
+ }
+
+/* 当我们进入小屏幕和超小屏幕时 里面的li浮动起来 并且让里面的文字变小一点 */
+
+@media screen and (max-width: 990px) {
+    .nav li {
+       float: left;
+       width: 20%;
+        
+    }
+    article{
+        margin-top: 20px;
+    }
+    
+}
+ .nav {
+    border: 1px solid #ccc ;
+    background-color: #eee;
+ }
+ 
+ .nav-item a {
+    display: block;
+    font-size: 16px;
+    height: 50px;
+ }
+.nav-item a::before {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.nav-item:hover {
+    background-color: #fff !important;
+}
+
+article {
+    padding: 0;
+}
+
+
+
+.item li {
+    
+    float: left;
+    width: 25%;
+    height: 128px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+
+}
+.item li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/* 当超小屏幕下 我们将 我们第一个li变成100% 其他的变为50% */
+@media screen and (max-width: 767px) {
+    .item li:nth-child(1) {
+        width: 100% !important;
+    }
+    .item li {
+        width: 50% !important;
+    }
+    .page h3 {
+        font-size: 14PX;
+    }
+    .page h3:hover {
+        cursor: pointer;
+    }
+
+
+}
+
+.item li:nth-child(1) {
+    width: 50%;
+    height: 266px;
+    padding-right: 10px;
+    
+
+}
+.item li:nth-child(1) p {
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+}
+.item li>a img {
+    width: 100%;
+    height: 100%;
+
+}
+.item li>a p {
+    position: absolute;
+    display: block;
+    height: 41px;
+    
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    padding: 4px 10px;
+    color: #fff;
+
+}
+.page {
+    display: block;
+    height: 168px;
+   
+}
+.page {
+    border-top: 1px solid #ccc;
+}
+
+.page .row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+
+}
+
+.pic {
+    margin-top: 20px;
+}
+.pic img {
+    width: 100%;
+}
+.banner {
+    margin-top: 10px;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+.hot {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 0 20px 20px; 
+    margin-top: 10px;
+}
+.hot span {
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.hot p {
+    font-size: 12px;
+}

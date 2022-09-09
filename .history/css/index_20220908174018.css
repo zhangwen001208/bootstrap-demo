@@ -1,0 +1,150 @@
+ 
+ @media screen and (min-width: 1280px) { 
+    .container {
+        width: 1280px
+    }
+    
+ }
+ ul{
+    padding: 0;
+    margin: 0;
+ }
+ ul>li {
+    list-style: none;
+    text-decoration: none;
+    
+ }
+ a {
+    color: #666;
+ }
+ a:hover {
+    text-decoration: none;
+ }
+ p{
+    margin-bottom: 0;
+ }
+ 
+
+
+
+
+
+ header {
+    padding-left: 0 !important;
+
+ }
+ .logo {
+    background-color: #429ad9;
+    
+
+ }
+ .logo img {
+    width: 100%;
+ 
+ }
+ .nav {
+    border: 1px solid #ccc ;
+    background-color: #eee;
+ }
+ 
+ .nav-item a {
+    display: block;
+    font-size: 16px;
+    height: 50px;
+ }
+.nav-item a::before {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.nav-item:hover {
+    background-color: #fff !important;
+}
+
+article {
+    padding: 0;
+}
+
+.item li {
+    
+    float: left;
+    width: 25%;
+    height: 128px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+
+}
+.item li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.item li:nth-child(1) {
+    width: 50%;
+    height: 266px;
+    padding-right: 10px;
+    
+
+}
+.item li:nth-child(1) p {
+    font-size: 20px;
+    line-height: 41px;
+    text-align: center;
+}
+.item li>a img {
+    width: 100%;
+    height: 100%;
+
+}
+.item li>a p {
+    position: absolute;
+    display: block;
+    height: 41px;
+    
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    padding: 4px 10px;
+    color: #fff;
+
+}
+.page {
+    display: block;
+    height: 168px;
+   
+}
+.page {
+    border-top: 1px solid #ccc;
+}
+
+.page .row {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+
+}
+.pic {
+    margin-top: 20px;
+}
+.pic img {
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+.hot {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 0 20px 20px; 
+    margin-top: 10px;
+}
+.hot span {
+    border-radius: 0;
+}
+.hot p {
+    font-size: 12px;
+}
